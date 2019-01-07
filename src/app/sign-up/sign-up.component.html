@@ -1,0 +1,93 @@
+<div class="container">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"
+  />
+  <h1 style="text-align:center; margin-top:10vh;"><u>Sign-Up Page</u></h1>
+  <form style="margin-top:20vh;">
+    <div class="form-row">
+      <div class="form-group col-md-12">
+        <label for="inputEmail4">Email</label>
+        <input
+          name="email"
+          [(ngModel)]="email"
+          type="email"
+          class="form-control"
+          id="inputEmail4"
+          placeholder="Email"
+          required
+        />
+      </div>
+      <div class="form-group col-md-12">
+        <label for="inputPassword4">Password</label>
+        <input
+          name="password"
+          [(ngModel)]="password"
+          type="password"
+          class="form-control"
+          id="inputPassword4"
+          placeholder="Password"
+          required
+        />
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Full Name</label>
+      <input
+        name="fullname"
+        [(ngModel)]="fullname"
+        type="text"
+        class="form-control"
+        id="inputAddress"
+        placeholder="Please mention your name here"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="inputAddress2">Mobile</label>
+      <input
+        name="mobile"
+        [(ngModel)]="mobile"
+        type="text"
+        class="form-control"
+        id="inputAddress2"
+        placeholder="Please give your mobile number"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="inputAddress3">Api Key</label>
+      <input
+        name="apiKey"
+        [(ngModel)]="apiKey"
+        type="text"
+        class="form-control"
+        id="inputAddress3"
+        placeholder="Please mention Api key"
+        required
+      />
+    </div>
+
+    <button type="submit" class="btn btn-primary" (click)="navigate()">
+      Sign Up
+    </button>
+  </form>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
+</div>
